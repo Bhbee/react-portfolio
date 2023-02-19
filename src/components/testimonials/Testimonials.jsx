@@ -16,26 +16,26 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVTR1,
-    name: 'Steffany Gretzinger',
-    review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis culpa dolorem aliquam maiores fugit voluptatum ex. Magni, qui molestias deserunt exercitationem sunt atque saepe recusandae molestiae neque. Molestias, quae ratione!'
+    name: 'Will be updated soon',
+    review: 'Looking forward to getting good reviews from my employers and clients!'
   },
 
   {
     avatar: AVTR2,
-    name: 'Steffany Gretzinger',
-    review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis culpa dolorem aliquam maiores fugit voluptatum ex. Magni, qui molestias deserunt exercitationem sunt atque saepe recusandae molestiae neque. Molestias, quae ratione!'
+    name: 'Will be updated soon',
+    review: 'Looking forward to getting good reviews from my employers and clients!'
   },
 
   {
     avatar: AVTR3,
-    name: 'Steffany Gretzinger',
-    review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis culpa dolorem aliquam maiores fugit voluptatum ex. Magni, qui molestias deserunt exercitationem sunt atque saepe recusandae molestiae neque. Molestias, quae ratione!'
+    name: 'Will be updated soon',
+    review: 'Looking forward to getting good reviews from my employers and clients!'
   },
 
   {
     avatar: AVTR4,
-    name: 'Steffany Gretzinger',
-    review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis culpa dolorem aliquam maiores fugit voluptatum ex. Magni, qui molestias deserunt exercitationem sunt atque saepe recusandae molestiae neque. Molestias, quae ratione!'
+    name: 'Will be updated soon',
+    review: 'Looking forward to getting good reviews from my employers and clients!'
   }
 ]
 

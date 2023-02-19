@@ -10,7 +10,7 @@ const Socials = () => {
         <a href="https://twitter.com/Bhbee_" target="blank"><FiTwitter /></a>
         <a href="https://www.linkedin.com/in/bhbee/"target="blank"><FiLinkedin /></a>
         <a href="https://www.instagram.com/bhbee_/"target="blank"><FiInstagram /></a>
-        <a href="https://www.githb.com/Bhbee/"target="blank"><FiGithub /></a>
+        <a href="https://www.github.com/Bhbee/"target="blank"><FiGithub /></a>
     </div>
   )
 }

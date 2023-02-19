@@ -3,7 +3,6 @@ import './footer.css'
 import {FiTwitter} from 'react-icons/fi'
 import {FiLinkedin} from 'react-icons/fi'
 import {FiInstagram} from 'react-icons/fi'
-import {FiGithub} from 'react-icons/fi'
 
 const Footer = () => {
   return (

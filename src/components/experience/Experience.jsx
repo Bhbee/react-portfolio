@@ -12,7 +12,7 @@ const Experience = () => {
 
         {/* Frontend section*/}
         <div className="experience_frontend">
-          <h3>Frontend Development</h3>
+          <h3>FRONTEND DEVELOPMENT</h3>
           <div className="experience_content">
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon' />
@@ -49,14 +49,14 @@ const Experience = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon' />
               <div>
-                <h4>MySQl</h4>
+                <h4>BOOTSTRAP</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
               <article className='experience_details'>
                 <BsPatchCheckFill className='experience_details-icon' />
                 <div>
-                  <h4>MySQl</h4>
+                  <h4>PROBLEM SOLVING</h4>
                   <small className='text-light'>Experienced</small>
                 </div>
               </article>
@@ -66,12 +66,12 @@ const Experience = () => {
         
         {/* Backend Section */}
         <div className="experience_backend">
-          <h3>Game Development</h3>
+          <h3>BACKEND & GAME DEVELOPMENT</h3>
             <div className="experience_content">
               <article className='experience_details'>
                 <BsPatchCheckFill className='experience_details-icon' />
                 <div>
-                  <h4>NODEjs</h4>
+                  <h4>NodeJS/ExpressJS</h4>
                   <small className='text-light'>Experienced</small>
                 </div>
               </article>
@@ -79,7 +79,7 @@ const Experience = () => {
               <article className='experience_details'>
                 <BsPatchCheckFill className='experience_details-icon' />
                 <div>
-                  <h4>MongoDB</h4>
+                  <h4>MongoDB/Mongoose</h4>
                   <small className='text-light'>Experienced</small>
                 </div>
               </article>
@@ -87,7 +87,7 @@ const Experience = () => {
               <article className='experience_details'>
                 <BsPatchCheckFill className='experience_details-icon' />
                 <div>
-                  <h4>MySQl</h4>
+                  <h4>MySQl/Sequelize</h4>
                   <small className='text-light'>Experienced</small>
                 </div>
               </article>
@@ -95,7 +95,7 @@ const Experience = () => {
               <article className='experience_details'>
                 <BsPatchCheckFill className='experience_details-icon' />
                 <div>
-                  <h4>MySQl</h4>
+                  <h4>EJS</h4>
                   <small className='text-light'>Experienced</small>
                 </div>
               </article>
@@ -103,7 +103,7 @@ const Experience = () => {
               <article className='experience_details'>
                 <BsPatchCheckFill className='experience_details-icon' />
                 <div>
-                  <h4>MySQl</h4>
+                  <h4>POSTMAN</h4>
                   <small className='text-light'>Experienced</small>
                 </div>
               </article>
@@ -111,7 +111,7 @@ const Experience = () => {
               <article className='experience_details'>
                 <BsPatchCheckFill className='experience_details-icon' />
                 <div>
-                  <h4>MySQl</h4>
+                  <h4>UNITY + C#</h4>
                   <small className='text-light'>Experienced</small>
                 </div>
               </article>

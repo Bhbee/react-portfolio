@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import MYSELF from '../../assets/Bhbee3.jpg'
+import MYSELF from '../../assets/Bhbee2.jpg'
 import{FaAward} from 'react-icons/fa'
 import{FiUsers} from 'react-icons/fi'
 import{AiFillFolderOpen} from 'react-icons/ai'
@@ -23,13 +23,13 @@ const About = () => {
             <article className='about_card'>
               <FaAward className='about_icon'/>
               <h5>Experience</h5>
-              <small>2+ Years </small>
+              <small>13 months+ </small>
             </article>
             
             <article className='about_card'>
               <FiUsers className='about_icon'/>
               <h5>Clients</h5>
-              <small>3+ Clients Worldwide </small>
+              <small>1+ Client </small>
             </article>
 
             <article className='about_card'>
@@ -39,10 +39,9 @@ const About = () => {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Exercitationem adipisci obcaecati repudiandae! Corporis, dolorum asperiores? 
-            Excepturi, quaerat quasi ipsam animi reiciendis, exercitationem nisi natus nulla, 
-            porro tenetur doloremque. Minus, minima?
+          <p>A Computer Scientist and a Software Engineer looking forward to gaining experience in the tech field and
+             developing innovative software. Beyond just writing code, I am knowledgeable in the importance of testing,
+             system analysis and design,and logging. Problem solving is one of my major drives to learning.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's talk</a>
