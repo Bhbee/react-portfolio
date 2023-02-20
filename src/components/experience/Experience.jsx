@@ -10,7 +10,7 @@ const Experience = () => {
       
       <div className ="container experience_container">
 
-        {/* Frontend section*/}
+        {/* Frontend section */}
         <div className="experience_frontend">
           <h3>FRONTEND DEVELOPMENT</h3>
           <div className="experience_content">
@@ -79,7 +79,7 @@ const Experience = () => {
               <article className='experience_details'>
                 <BsPatchCheckFill className='experience_details-icon' />
                 <div>
-                  <h4>MongoDB/Mongoose</h4>
+                  <h4>MongoDB</h4>
                   <small className='text-light'>Experienced</small>
                 </div>
               </article>

@@ -76,17 +76,17 @@
 /* ======MEDIA QUERIES (SMALL DEVICES) ======= */
 @media screen and (max-width: 600px) {
     .about_me{
-        width: 65%;
+        width: 60%;
         margin: 0 auto 3rem;
     }
     .about_cards{
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        gap: 0.7rem;
     }
     .about_content{
         text-align: center;
     }
     .about_content p{
-        margin: 1.5rem 0;
+        margin: 3rem 1rem;
     }
 }
