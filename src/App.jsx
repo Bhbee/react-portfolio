@@ -1,25 +1,19 @@
-import React from 'react'
-import About from './components/about/About'
-import Contact from './components/contacts/Contact'
-import Experience from './components/experience/Experience'
-import Footer from './components/footer/Footer'
-import Header from './components/header/Header'
-import Nav from './components/nav/Nav'
-import Portfolio from './components/portfolio/Portfolio'
-import Testimonials from './components/testimonials/Testimonials'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Home from './pages/home/Home'
+import Community from './pages/community/Community'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <>
-        <Header />
-        <Nav />
-        <About />
-        <Experience />
-        <Portfolio />
-        <Testimonials />
-        <Contact />
+    <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route index element = {<Home/>}/>
+          <Route path ='discord' element = {<Community/>}/>
+        </Routes>
         <Footer />
-    </>
+    </BrowserRouter>
   )
 }
 
