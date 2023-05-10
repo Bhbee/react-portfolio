@@ -15,7 +15,7 @@ const Community = () => {
 
     <section className='about__Vision'>
         <div className='container about__Vision-container'>
-            <div className='about__Vision-image'>
+            <div className='commnunity__image'>
                 <img src={MockUpImage} alt='Grassroot' />
             </div>
             <div className='about__section-content'>

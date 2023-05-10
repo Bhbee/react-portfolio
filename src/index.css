@@ -171,13 +171,11 @@ section{
     font-weight: 300;
 }
 .header2{
-    /* margin-top: 5rem; */
     overflow: hidden;
     height: 20rem;
     border-bottom: 2px solid var(--color-gray-400);
 }
 .header{
-    /* margin-top: 5rem; */
     overflow: hidden;
     height: 40rem;
     border-bottom: 2px solid var(--color-gray-400);
@@ -190,6 +188,7 @@ section{
     place-items: center;
     background-color: black;
 }
+
 
 .header__container-bg{
     position: absolute;
@@ -232,21 +231,28 @@ section{
 /* ======MEDIA QUERIES (SMALL DEVICES) ======= */
 @media screen and (max-width: 600px) {
    h1{
-    font-size: 2.2rem;
-    line-height: 1.3;
+        font-size: 2.2rem;
+        line-height: 1.3;
    }
    section{
-    margin-top: 7rem;
+        margin-top: 7rem;
    }
    .header{
-    height: fit fit-content;
+     height: fit-content;
    }
+   .header2{
+    height: fit-content;
+    }
    .header__content{
-    width: var(--container-width-md);
-    padding: 3rem 0;
+        width: var(--container-width-md);
+        padding: 3rem 0;
    }
    .header__content p{
-    font-size: 0.85rem;
+        font-size: 0.85rem;
+   }
+   .btnYoutube{
+    padding: 2rem 1rem;
+    border-radius: 0 3rem 0 3rem;
    }
 } 
 

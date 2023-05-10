@@ -1,7 +1,12 @@
-
+.commnunity__image{
+    border-radius: 50%;
+    overflow: hidden;
+}
 .about__Vision-image{
     border-radius: 50%;
     overflow: hidden;
+    border: 2px solid transparent;
+    border-color: var(--color-primary);
 }
 .about__section-content h1{
     margin-bottom: 2rem;
@@ -46,8 +51,10 @@
 }
 
 .values__image{
-    filter: saturate(0.25);
+    /* filter: saturate(0.25); */
     transition: var(--transition);
+    border: 2px solid transparent;
+    border-color: var(--color-primary);
     border-radius: 50%;
     overflow: hidden;
 }
@@ -199,17 +206,6 @@ footer{
 
 /* ======MEDIA QUERIES (MEDIUM DEVICES) ======= */
 @media screen and (max-width: 1024px) {
-    /* .main__header{
-        height: fit-content;
-        padding: 12rem 0;
-    }
-    .main__header-container{
-        gap: 0;
-    }
-    .main__header-circle{
-        width: 16rem;
-        height: 16rem;
-    } */
 
     .about__Vision-image{
         width: 60%;
@@ -253,17 +249,6 @@ footer{
 
 /* ======MEDIA QUERIES (SMALL DEVICES) ======= */
 @media screen and (max-width: 600px) {
-    /* .main__header{
-        margin-top: 0;
-        padding: 12rem 0 0;
-        height: 100vh;
-    }
-    .main__header-image, .main__header-circle{
-        display: none;
-    }
-    .main__header-container{
-        grid-template-columns: 1fr;
-    } */
     .about__Vision-image{
         width: 80%;
         margin-inline: auto;

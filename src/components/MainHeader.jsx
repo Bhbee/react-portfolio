@@ -1,9 +1,6 @@
 import Header from "./Header"
 import HeaderImage from "../images/background.jpg"
 
-
-import {Link} from 'react-router-dom'
-import Image from '../images/avatar3.jpg'
 import {AiOutlineYoutube} from 'react-icons/ai'
 
 const MainHeader = () =>{
